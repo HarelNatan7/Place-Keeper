@@ -1,0 +1,20 @@
+a {
+    display: block;
+}
+.settings-table,
+tr,
+td {
+    border: 7px outset rgba(180, 167, 167, 0.429);
+    border-radius: 70px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+input {
+    width: 30vh;
+}
+.save-btn {
+    width: 30vh;
+}
+.btn-td {
+    border: 0ch;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Map</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="onInIt();getPosition()">
+    <a href="index.html">Back To Home Page</a>
+    <h1>Your Locations:</h1>
+
+   
+
+    <p id="locationError"></p>
+
+    <div class="map" style="height: 50vh;"></div>
+</body>
+<script src="js/local-storage.js"></script>
+<script src="js/user-prefs-controller.js"></script>
+<script src="js/user-prefs-service.js"></script>
+<script src="js/map-controller.js"></script>
+<script src="js/map-service.js"></script>
+<script src="js/index-controller.js"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlbVbvWFhmMwFiVvbSeax1Af8UpghJ6CY&callback=initMap">
+</script>
+
+</html>
