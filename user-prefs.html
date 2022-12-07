@@ -10,10 +10,12 @@
 </head>
 
 <body onload="onInIt()">
+    <a href="index.html" title="Back To Home Page">
+        <img src="img/Home.jpg" style="width:15vh;border-radius:10px;">
+    </a>
     <h1>Hello <span></span>!</h1>
-    <a href="index.html">Back To Home Page</a>
     <hr>
-
+<section class="form-container">
     <form class="frmRegister" onsubmit="onSubmit(event)">
         <table class="settings-table">
             <tr>
@@ -46,7 +48,7 @@
                 </td>
                 <td class="table-td-inputs">
                     <input type="range" id="zoom" name="zoom" min="1" max="21" value="7"
-                        onchange="this.title=this.value" />
+                    onchange="this.title=this.value" />
                 </td>
             </tr>
             <tr>
@@ -57,13 +59,10 @@
                     <input required type="text" id="map-coords">
                 </td>
             </tr>
-            <tr>
-                <td class="btn-td">
-                    <button class="save-btn">Save</button>
-                </td>
-            </tr>
         </table>
+        <button class="save-btn">Save</button>
     </form>
+</section>
 </body>
 <script src="js/local-storage.js"></script>
 <script src="js/user-prefs-controller.js"></script>

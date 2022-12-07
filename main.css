@@ -1,8 +1,27 @@
+body {
+    text-align: center;
+}
 a {
-    display: block;
+    display: inline; 
+}
+h1 {
+    text-align: center;
+}
+.form-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.frmRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .settings-table,
 tr,
+th,
 td {
     border: 7px outset rgba(180, 167, 167, 0.429);
     border-radius: 70px;
@@ -13,8 +32,19 @@ input {
     width: 30vh;
 }
 .save-btn {
-    width: 30vh;
+    /* width: 30vh; */
+    margin-top: 20px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .btn-td {
     border: 0ch;
+    /* position: absolute; */
+}
+.btn-tr {
+    border: 0ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
